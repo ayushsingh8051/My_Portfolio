@@ -73,7 +73,7 @@ const Hero = () => {
             transition={{ delay: 1.2, duration: 0.5 }}
             className="hero-buttons"
           >
-            <a href="/src/assets/resume.pdf" download className="btn btn-primary">Download Resume</a>
+            <a href="resume.pdf" download className="btn btn-primary">Download Resume</a>
             <a href="#about" className="btn btn-outline">More About Me</a>
           </motion.div>
         </motion.div>
@@ -91,7 +91,7 @@ const Hero = () => {
             <div className="avatar-card glass">
               <div className="avatar-placeholder">
                 {/* Replace src with your photo later */}
-                <img src="/src/assets/profile.png" alt="Ayush Kumar" className="avatar-img" onError={(e) => {
+                <img src="profile.png" alt="Ayush Kumar" className="avatar-img" onError={(e) => {
                   e.target.style.display = 'none';
                   e.target.nextSibling.style.display = 'flex';
                 }} />

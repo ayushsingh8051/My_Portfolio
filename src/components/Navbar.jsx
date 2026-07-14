@@ -90,7 +90,7 @@ const Navbar = () => {
           <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle Theme">
             {isLightMode ? <Moon size={20} /> : <Sun size={20} />}
           </button>
-          <a href="/src/assets/resume.pdf" download className="btn btn-outline nav-btn">
+          <a href="resume.pdf" download className="btn btn-outline nav-btn">
             <Download size={16} /> Resume
           </a>
         </motion.div>
